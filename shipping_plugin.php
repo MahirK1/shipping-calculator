@@ -8,7 +8,7 @@ Author: Mahir
 //Function to geocode address using OpenStreetMap Nominatim API
 function geocode_address($address) {
     // Google Maps API Key
-    $api_key = 'AIzaSyBm2HUy0IzvT8hK3e2gvSAPXV5dsR0P_gA';
+    $api_key = 'YOUR-API';
     
     // Construct the request URL
     $url = "https://maps.googleapis.com/maps/api/geocode/json?address=" . urlencode($address) . "&key=" . $api_key;
